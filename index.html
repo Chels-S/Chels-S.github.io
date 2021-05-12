@@ -14,30 +14,50 @@
 <body>
 
     <!-- NAV -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="sticky-top">
+
+      <nav id="navBar" class="navbar navbar-expand-lg navbar-light bg-light">
+
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
+          <a class="navbar-brand" href="#">&lt; chelsey sexton web developer &sol;&gt;</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
+
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
               <a class="nav-link active" aria-current="page" href="#">Home</a>
-              <a class="nav-link" href="#">Features</a>
-              <a class="nav-link" href="#">Pricing</a>
-              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              <a class="nav-link" href="#portfolioSection">Portfolio</a>
+              <a class="nav-link" href="#aboutMeSection">About</a>
+              <a class="nav-link" href="#contactSection">Contact</a>
             </div>
           </div>
+
         </div>
       </nav>
+    </div>
 
 
     <!-- LANDING PAGE -->
+
+    <!-- <div class="card bg-dark text-white">
+      <img src="./assets/dogCoder.jpg" class="card-img" alt="...">
+      <div class="card-img-overlay">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> -->
+        <!-- <p class="card-text">Last updated 3 mins ago</p> -->
+      <!-- </div>
+    </div> -->
+
+
+
     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
+
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button> 
+          <!-- <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button> -->
+
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
@@ -46,9 +66,9 @@
           <div class="carousel-item">
             <img src="./assets/dogCoder.jpg" class="d-block w-100" alt="...">
           </div>
-          <div class="carousel-item">
+          <!-- <div class="carousel-item">
             <img src="./assets/hustle.jpg" class="d-block w-100" alt="...">
-          </div>
+          </div> -->
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -58,79 +78,80 @@
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
-      </div>
+      </div> 
 
     
     <!-- PROJECTS -->
-    <div class="myProjects">
+    <div id="portfolioSection" class="myProjects">
         <div class="projectContainer">
 
-            <div class="projectOne">
-                <div class="card mb-3" style="max-width: 540px;">
-                    <div class="row g-0">
-                        <div class="col-md-4">
-                            <img src="./assets/cutie.jpg" alt="...">
-                        </div>
-                        <div class="col-md-8">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                            </div>
-                        </div>
-                    </div>
+          <div class="row row-cols-1 row-cols-md-3 g-4">
+
+
+            <div class="col">
+              <div class="card h-100">
+                <a href ="https://codepen.io/chels-s/pen/qBRvYzB" target="_blank" ><img src="./assets/css-creature-preview.png" class="card-img-top" alt="..."></a>
+                
+                  <div class="card-body">
+                    <h5 class="card-title">CSS Creature</h5>
+                    <p class="card-text">Challenge: Create a creature using HTML and CSS. Done during the very first day of Gold Badge.</p>
+                  </div>
                 </div>
-            </div>
+              </div>
+              
+              <div class="col">
+                <div class="card h-100">
+                  <a href ="https://chels-s.github.io/staticLayout/" target="_blank"><img src="./assets/static-layout-preview.png" class="card-img-top" alt="..."></a>
+                  <div class="card-body">
+                    <h5 class="card-title">Static Layout</h5>
+                    <p class="card-text">Challenge: Recreate a webpage using only HTML and CSS. Completed during the very first week of Gold Badge. </p>
+                  </div>
+                </div>
+              </div>
             
-            <div class="projectTwo">
-                <div class="card mb-3" style="max-width: 540px;">
-                    <div class="row g-0">
-                        <div class="col-md-8">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <img src="./assets/cutie.jpg" alt="...">
-                        </div>
-                    </div>
+
+            <div class="col">
+              <div class="card h-100">
+                <a href="https://chels-s.github.io/firstAPIChallenge/" target="_blank"><img src="./assets/firstAPI-preview.png" class="card-img-top" alt="..."></a>
+                <div class="card-body">
+                  <h5 class="card-title">API #1</h5>
+                  <p class="card-text">Challenge: Pull data from an API and display it. Done during the second week of Gold Badge.</p>
                 </div>
+              </div>
             </div>
 
-            <div class="projectThree">
-                <div class="card mb-3" style="max-width: 540px;">
-                    <div class="row g-0">
-                        <div class="col-md-4">
-                            <img src="./assets/cutie.jpg" alt="...">
-                        </div>
-                        <div class="col-md-8">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                            </div>
-                        </div>
-                    </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="./assets/cutie.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">API #2</h5>
+                  <p class="card-text">Challenge: Pull data from an API utilizing an API key. Done during the third week of Gold Badge.</p>
                 </div>
+              </div>
             </div>
-            <div class="projectTwo">
-                <div class="card mb-3" style="max-width: 540px;">
-                    <div class="row g-0">
-                        <div class="col-md-8">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <img src="./assets/cutie.jpg" alt="...">
-                        </div>
-                    </div>
+
+            <div class="col">
+              <div class="card h-100">
+                <img src="./assets/webDev-Blue-Badge.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Blue Badge TBA</h5>
+                  <p class="card-text"></p>
                 </div>
+              </div>
             </div>
+
+            <div class="col">
+              <div class="card h-100">
+                <img src="./assets/webDev-Red-Badge.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Red Badge TBA</h5>
+                  <p class="card-text"></p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
 
             
         </div>
@@ -139,41 +160,76 @@
     
     <!-- ABOUT -->
 
-    <div class="aboutMe">
-        <h3>This is the About me section!</h3>
+    <div id="aboutMeSection" class="aboutMe">
+
+      <!-- <div class="card mb-3" style="max-width: 540px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="./assets/cutie.jpg" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">About me!</h5>
+              <p class="card-text">Stuff about me!</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+        </div>
+      </div> -->
+
+
+        <h3>About Me</h3>
+        <p>Stuff about me!</p>
+
+
+
+
     </div>
 
 
 
 
     <!-- CONTACT -->
-    <div class="mb-3">
-        <label for="exampleFormControlInput1" class="form-label">Email address</label>
-        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-      </div>
-      <div class="mb-3">
-        <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-      </div>
+    <div id = "contactSection">
+
+      <form action="https://formspree.io/f/xeqvaepe" method="POST" class="container-sm">
+            
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Email address</label>
+            <input type="email" class="form-control" 
+            id="exampleFormControlInput1" placeholder="name@example.com" required name="_replyto">
+        </div>
+        <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" 
+            placeholder="Your Message Here" required name="message"></textarea>
+        </div>
+        <button type="submit" class="btn btn-danger">Submit</button>
+    </form>
+    </div>
 
 
 
 
     <!-- FOOTER -->
+    <div id="footerSection">
+      
     <ul class="nav justify-content-center">
-        <li class="nav-item">
+        <!-- <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="#">Active</a>
+        </li> -->
+        <li class="nav-item">
+          <a class="nav-link" href="https://github.com/Chels-S">GitHub</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
+          <a class="nav-link" href="#">LinkedIn</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item">
+        <!-- <li class="nav-item">
           <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-        </li>
+        </li> -->
       </ul>
+      <p>Copyright 2021 | Chelsey Sexton</p>
+    </div>
 
     <!-- JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" 

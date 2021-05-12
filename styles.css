@@ -1,0 +1,32 @@
+/* MAIN STYLES */
+
+body {
+    color: orange;
+}
+
+/* NAVIGATION */
+
+
+
+/* PORTFOLIO */
+#portfolioSection a {
+    text-decoration: none;
+    color: red;
+}
+
+/* ABOUT ME */
+
+#aboutMeSection {
+    margin-top: 100px;
+}
+
+/* CONTACT */
+
+#contactSection {
+    margin-top: 100px;
+}
+
+/* FOOTER */
+#footerSection {
+    margin-top: 100px;
+}
