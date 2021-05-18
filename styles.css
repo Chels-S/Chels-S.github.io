@@ -1,11 +1,42 @@
 /* MAIN STYLES */
 
 body {
-    color: orange;
+    color: #d41c84;
+    background-color: #2f2f2f;
+    font-family: 'Raleway', sans-serif;
 }
 
 /* NAVIGATION */
 
+
+
+#navBar a {
+    color: #d41c84;
+    font-family: 'Source Code Pro', monospace;
+}
+#navBar {
+    background-color: #2f2f2f;
+    
+}
+
+.navbar-nav {
+    margin-left: 78%;
+}
+
+/* LANDING PAGE */
+.landing h5 {
+    padding-top: 15%;
+    text-align: center;
+    font-size: 50px;
+}
+
+.landing p {
+    text-transform: uppercase;
+    text-align: center;
+}
+.landing img {
+    height: 46em;
+}
 
 
 /* PORTFOLIO */
@@ -20,13 +51,26 @@ body {
     margin-top: 100px;
 }
 
+#aboutMeSection h3 {
+    text-align: Center;
+}
+#aboutMeSection p {
+    text-align: center;
+}
+
 /* CONTACT */
 
 #contactSection {
     margin-top: 100px;
+    margin-left: 30%;
+    margin-right: 30%;
 }
 
 /* FOOTER */
 #footerSection {
-    margin-top: 100px;
+    margin-top: 70px;
+}
+
+#footerSection p {
+    text-align: center;
 }
