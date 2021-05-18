@@ -7,6 +7,287 @@ body {
 }
 
 
+/* NAVIGATION */
+
+
+
+#navBar a {
+    color: #d41c84;
+    font-family: 'Source Code Pro', monospace;
+}
+#navBar {
+    background-color: #2f2f2f;
+    
+}
+
+.navbar-nav {
+    margin-left: 77%;
+
+
+
+}
+
+
+
+
+
+/* LANDING PAGE */
+/* .landing h5, .landing p {} */
+
+.landing h5 {
+    padding-top: 15%;
+    text-align: center;
+    font-size: 20px;
+    
+}
+
+.landing p {
+    text-transform: uppercase;
+    text-align: center;
+}
+.landing img {
+    height: 46em;
+}
+
+.landing {
+    margin-bottom: 3%;
+}
+
+.landing p {
+    font-size: 13px;
+}
+
+
+
+
+
+
+
+
+/* PORTFOLIO */
+
+#portfolioSection h3 {
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 2%;
+}
+#portfolioSection h5{
+    font-weight: 600;
+}
+
+#portfolioSection a {
+    text-decoration: none;
+    color: #d41c84;
+   
+}
+
+.card {
+    background-color: darkgrey;
+}
+#portfolioSection img {
+    height: 350px;
+
+}
+
+
+
+
+/* ABOUT ME */
+
+#aboutMeSection {
+    margin-top: 10%;
+}
+
+/* .aboutContainer {
+   
+} */
+
+#aboutMeSection h3 {
+    text-align: Center;
+    margin-bottom: 2%;
+    font-weight: 600;
+}
+
+#aboutMeSection h5 {
+    font-weight: 600;
+}
+
+#aboutMeSection img {
+    
+    width: 300px;
+    height: 300px;
+}
+
+.aboutLeft {
+    /* width: 200px; */
+    /* margin-right: 10px; */
+   margin-left: 13%;
+}
+
+.aboutRight {
+ /* width: 300px; */
+ margin: 10%;
+ 
+}
+
+/* CONTACT */
+
+#contactSection {
+    margin-top: 100px;
+    margin-left: 10%;
+    margin-right: 5%;
+}
+
+#contactSection h3 {
+    text-align: center;
+}
+
+
+
+/* FOOTER */
+#footerSection {
+    margin-top: 70px;
+}
+
+#footerSection p {
+    text-align: center;
+}
+
+#footerSection a {
+    text-decoration: none;
+    color: #d41c84;
+}
+
+
+.copyrightInfo {
+  
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    margin: 2%;
+}
+
+
+
+
+/*  ! TABLET STYLES HERE */
+
+@media only screen and (min-width: 768px){
+
+/* NAVIGATION */
+
+
+
+#navBar a {
+    color: #d41c84;
+    font-family: 'Source Code Pro', monospace;
+}
+#navBar {
+    background-color: #2f2f2f;
+    
+}
+
+.navbar-nav {
+    margin-left: 77%;
+
+
+
+}
+
+
+
+
+
+/* LANDING PAGE */
+/* .landing h5, .landing p {} */
+
+.landing h5 {
+    padding-top: 15%;
+    text-align: center;
+    font-size: 20px;
+    
+}
+
+.landing p {
+    text-transform: uppercase;
+    text-align: center;
+}
+.landing img {
+    height: 46em;
+}
+
+.landing {
+    margin-bottom: 3%;
+}
+
+.landing p {
+    font-size: 13px;
+}
+
+
+
+
+
+
+
+
+/* PORTFOLIO */
+
+#portfolioSection h3 {
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 2%;
+}
+#portfolioSection h5{
+    font-weight: 600;
+}
+
+#portfolioSection a {
+    text-decoration: none;
+    color: #d41c84;
+   
+}
+
+.card {
+    background-color: darkgrey;
+}
+#portfolioSection img {
+    height: 350px;
+
+}
+
+
+.aboutLeft {
+   margin-left: 30%;
+}
+
+
+
+/* CONTACT */
+
+#contactSection {
+    margin-top: 100px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+
+
+
+
+}
+
+
+
+
+
+
+/* ! DEKSTOP STYLES HERE */
+
+@media only screen and (min-width: 1200px){
+
+
 
 
 /* NAVIGATION */
@@ -74,6 +355,12 @@ body {
     font-weight: 600;
 }
 
+#portfolioSection a {
+    text-decoration: none;
+    color: #d41c84;
+   
+}
+
 .card {
     background-color: darkgrey;
 }
@@ -112,7 +399,7 @@ body {
 }
 
 .aboutLeft {
-    width: 200px;
+    /* width: 200px; */
     /* margin-right: 10px; */
     /* grid-column-start: 1; */
    margin-left: 55%;
@@ -152,14 +439,13 @@ body {
     color: #d41c84;
 }
 
-.nav-item {
-    margin-bottom: 2%;
-}
 
 .copyrightInfo {
+  
     list-style: none;
     display: inline-block;
-    margin-right: 3%;
     text-align: center;
-    margin-left: 23%;
+    margin: 2%;
+}
+
 }
