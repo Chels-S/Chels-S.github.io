@@ -81,6 +81,10 @@ body {
    
 }
 
+/* .card-text {
+    font-weight: bold;
+} */
+
 .card {
     background-color: darkgrey;
 }
@@ -227,10 +231,6 @@ body {
 
 
 
-
-
-
-
 /* PORTFOLIO */
 
 #portfolioSection h3 {
@@ -248,9 +248,7 @@ body {
    
 }
 
-.card {
-    background-color: darkgrey;
-}
+
 #portfolioSection img {
     height: 350px;
 
@@ -361,9 +359,7 @@ body {
    
 }
 
-.card {
-    background-color: darkgrey;
-}
+
 #portfolioSection img {
     height: 350px;
 
@@ -406,7 +402,7 @@ body {
 }
 
 .aboutRight {
- width: 300px;
+ width: 600px;
  margin: 0;
  /* grid-column-start: 2; */
 }
