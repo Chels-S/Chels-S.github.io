@@ -146,3 +146,20 @@ body {
 #footerSection p {
     text-align: center;
 }
+
+#footerSection a {
+    text-decoration: none;
+    color: #d41c84;
+}
+
+.nav-item {
+    margin-bottom: 2%;
+}
+
+.copyrightInfo {
+    list-style: none;
+    display: inline-block;
+    margin-right: 3%;
+    text-align: center;
+    margin-left: 23%;
+}
