@@ -6,6 +6,9 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
+
+
+
 /* NAVIGATION */
 
 
@@ -20,14 +23,24 @@ body {
 }
 
 .navbar-nav {
-    margin-left: 78%;
+    margin-left: 77%;
+
+
+
 }
 
+
+
+
+
 /* LANDING PAGE */
+/* .landing h5, .landing p {} */
+
 .landing h5 {
     padding-top: 15%;
     text-align: center;
     font-size: 50px;
+    
 }
 
 .landing p {
@@ -38,12 +51,39 @@ body {
     height: 46em;
 }
 
+.landing {
+    margin-bottom: 3%;
+}
+
+
+
+
+
+
+
+
 
 /* PORTFOLIO */
-#portfolioSection a {
-    text-decoration: none;
-    color: red;
+
+#portfolioSection h3 {
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 2%;
 }
+#portfolioSection h5{
+    font-weight: 600;
+}
+
+.card {
+    background-color: darkgrey;
+}
+#portfolioSection img {
+    height: 350px;
+
+}
+
+
+
 
 /* ABOUT ME */
 
@@ -51,11 +91,37 @@ body {
     margin-top: 100px;
 }
 
+.aboutContainer {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
 #aboutMeSection h3 {
     text-align: Center;
+    margin-bottom: 2%;
+    font-weight: 600;
 }
-#aboutMeSection p {
-    text-align: center;
+
+#aboutMeSection h5 {
+    font-weight: 600;
+}
+
+#aboutMeSection img {
+    width: 300px;
+    height: 300px;
+}
+
+.aboutLeft {
+    width: 200px;
+    /* margin-right: 10px; */
+    /* grid-column-start: 1; */
+   margin-left: 55%;
+}
+
+.aboutRight {
+ width: 300px;
+ margin: 0;
+ /* grid-column-start: 2; */
 }
 
 /* CONTACT */
@@ -65,6 +131,12 @@ body {
     margin-left: 30%;
     margin-right: 30%;
 }
+
+#contactSection h3 {
+    text-align: center;
+}
+
+
 
 /* FOOTER */
 #footerSection {
